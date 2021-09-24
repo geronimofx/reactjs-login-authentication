@@ -3,7 +3,7 @@ export default class Home extends Component{
 
     render(){
         return(
-            <h2>você foi logado com suceso!</h2>
+            <h2>Você foi logado com suceso!</h2>
         )
     }
 }

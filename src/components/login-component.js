@@ -31,16 +31,10 @@ function Login() {
     }
 
     return (
-        // <div>
-        //     {error && <div><span>Usuário e senha incorreta!</span></div>}
-        //     <h2>This is the login page</h2>
-        //     <input placeholder="Email" onChange={handleEmail} type="email"/>
-        //     <input placeholder="Password" onChange={handlePassword} type="password"/>
-        //     <button onClick={onSubmit}>enviar</button>
-        // </div>
+        
         <div>
             
-            <h3>This is the login page</h3>
+            <h3>Faça login no sistema!</h3>
             <div className="form-group">
                 <label>E-mail</label>
                 <input type="email" onChange={handleEmail}  className="form-control" placeholder="E-mail"></input>

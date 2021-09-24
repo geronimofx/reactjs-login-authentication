@@ -16,6 +16,7 @@ export default function Nav (){
     const isLogged = !!token
 
     return(
+        
         <nav className="navbar navbar-expand navbar-light fixed-top">
             <div className="container">
                 <Link className="navbar-brand" to={'/'}>Home</Link>

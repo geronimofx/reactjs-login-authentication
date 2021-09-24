@@ -1,17 +1,3 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800&display=swap');
 
 *{
@@ -68,7 +54,7 @@ body, html, .App, #root, .auth-wrapper{
 }
 
 .auth-wrapper .form-control:focus{
-  border-color: #167bff;
+  border-color: #fc466b;
   box-shadow: none;
 }
 
@@ -83,19 +69,16 @@ body, html, .App, #root, .auth-wrapper{
   font-weight: 400;
 }
 
-.forgot-password, .forgot-password a {
-  text-align: right;
-  font-size: 13px;
-  padding-top: 10px;
-  color: #7f7d7d;
-  margin: 0;
-}
-
-.forgot-password a{
-  color: #167bff;
-}
-
 .btn{
   margin-top: 10px;
   width: 100%;
+}
+
+.btn-primary{
+  border-color: #fc466b !important;
+  background-color: #fc466b !important;
+}
+
+.nav-link{
+  cursor: pointer;
 }

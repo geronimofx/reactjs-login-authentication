@@ -7,7 +7,6 @@ import PrivateRoute from './PrivateRoute';
 import Home from "./components/home-component";
 import Nav from "./components/nav-component";
 import Login from "./components/login-component";
-import Register from "./components/register-component";
 import NotFound from "./components/NotFound";
 
 function App() {
